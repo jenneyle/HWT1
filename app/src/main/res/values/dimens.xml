@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lwidth" />
+    <dimen name="layoutwidth">256dp</dimen>
+    <dimen name="layoutlength">123dp</dimen>
+    <dimen name="layouthorizontal">118dp</dimen>
+    <dimen name="layoutimage">123dp</dimen>
+</resources>

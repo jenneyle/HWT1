@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orgbg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hr12" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:onClick="clock24time"
+            android:text="@string/hr24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layouthorizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/layoutwidth"
+            android:layout_height="@dimen/layoutlength"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/city1"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextClock
+                android:id="@+id/sydney12hr"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="16dp"
+                android:format12Hour="h:mm a"
+                android:freezesText="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:timeZone="GMT+1000" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/layoutimage"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layouthorizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/layoutwidth"
+            android:layout_height="@dimen/layoutlength"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/city2"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextClock
+                android:id="@+id/tokyo12hr"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="16dp"
+                android:format12Hour="h:mm a"
+                android:freezesText="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:timeZone="GMT+0900" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/tokyo_foreground" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layouthorizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/layoutwidth"
+            android:layout_height="@dimen/layoutlength"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/city3"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextClock
+                android:id="@+id/hongkong12hr"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="16dp"
+                android:format12Hour="h:mm a"
+                android:freezesText="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:timeZone="GMT+0800" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/hongkong_foreground" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layouthorizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/layoutwidth"
+            android:layout_height="@dimen/layoutlength"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/city4"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextClock
+                android:id="@+id/london12hr"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="16dp"
+                android:format12Hour="h:mm a"
+                android:freezesText="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:timeZone="GMT+0100" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/london_foreground" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layouthorizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/layoutwidth"
+            android:layout_height="@dimen/layoutlength"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/city5"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextClock
+                android:id="@+id/losangeles"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="16dp"
+                android:format12Hour="h:mm a"
+                android:freezesText="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:timeZone="GMT-0700" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/losangeles2_foreground" />
+
+    </LinearLayout>
+
+</LinearLayout>

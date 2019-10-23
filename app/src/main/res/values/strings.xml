@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HWT1</string>
+    <string name="city1">Sydney</string>
+    <string name="city2">Toyko</string>
+    <string name="city3">Hong Kong</string>
+    <string name="city4">London</string>
+    <string name="city5">Los Angeles</string>
+    <string name="hr24">24 HOUR</string>
+    <string name="hr12">12 HOUR</string>
+</resources>
